@@ -47,4 +47,4 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: OpenBanapass
-        path: ${{env.GITHUB_WORKSPACE}}/OpenBanapass/x64/Release/*
+        path: ${{env.SOLUTION_FILE_PATH}}/x64/Release/*
